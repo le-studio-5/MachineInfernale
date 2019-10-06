@@ -1,6 +1,0 @@
-teensy : 
-https://forum.pjrc.com/threads/49099-T3-6-USB-Host-Joysticks
-
-arduino : 
-https://forum.arduino.cc/index.php?topic=511952.0
-https://arduino.stackexchange.com/questions/31986/arduino-usb-host-shield-with-joystick
