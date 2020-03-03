@@ -24,11 +24,6 @@ La MSI est un projet collaboratif à construire à plusieurs : professionnels, u
 Pour le prototype, les boites sont de simples pavés dont les plaques des modules sont gravés à la découpe laser.
 <h2 id="electro">L'électronique</h2>
 Le prototype comporte :
-# 4 teensy LC
-# 12 boutons d'arcades
-# Une raspberry pi 3 avec écran tactile 
-# 1 NE555 avec un potentiomètre ruban
-# 2 circuit Noisebox
 * 4 teensy LC
 * 12 boutons d'arcades
 * Une raspberry pi 3 avec écran tactile
