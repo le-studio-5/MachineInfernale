@@ -29,3 +29,8 @@ Le prototype comporte :
 # Une raspberry pi 3 avec écran tactile 
 # 1 NE555 avec un potentiomètre ruban
 # 2 circuit Noisebox
+* 4 teensy LC
+* 12 boutons d'arcades
+* Une raspberry pi 3 avec écran tactile
+* 1 NE555 avec un potentiomètre ruban
+* 2 circuit Noisebox
