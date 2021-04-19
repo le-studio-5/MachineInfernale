@@ -24,4 +24,11 @@ La MSI est un projet collaboratif à construire à plusieurs : professionnels, u
 La structure a été pensé par Kevin Barillet et sera réalisé par le Creuset à Pont du Casse.
 Son design rappelle le tableau de bord d’un vaisseau spatial
 <h2 id="electro">L'électronique</h2>
-La partie électronique est réalisée par Gaël Jaton. Elle est en cours d’expérimentation.
+La partie électronique est réalisée par Gaël Jaton. Elle est en cours d’expérimentation.  
+  
+<h2 id="mix">mixage</h2>  
+proposition :  
+https://www.thomann.de/fr/ant_antmix_8_fx.htm  
+https://www.thomann.de/fr/behringer_rx_1202_fx.htm  
+
+
