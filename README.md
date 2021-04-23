@@ -30,5 +30,7 @@ La partie électronique est réalisée par Gaël Jaton. Elle est en cours d’ex
 proposition :  
 https://www.thomann.de/fr/ant_antmix_8_fx.htm  
 https://www.thomann.de/fr/behringer_rx_1202_fx.htm  
+  
+https://forum.pjrc.com/threads/44377-SD-Audio-playback-speed/page2 !!!  
 
 
