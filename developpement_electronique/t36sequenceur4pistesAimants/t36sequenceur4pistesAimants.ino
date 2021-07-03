@@ -1,5 +1,6 @@
 #define bounceTime 20
-
+#include <FastLED.h>
+CRGB leds[8];
 #include <Audio.h>
 #include <Wire.h>
 #include <SPI.h>
@@ -30,6 +31,7 @@ unsigned long previousMillis;
 int tInt;
 
 void setup() {
+   FastLED.addLeds<WS2812B, 22, GRB>(leds, 8);
   AudioMemory(20);
   pinMode(13, OUTPUT);
   for (int i = 0; i < 8; i++) {
@@ -58,6 +60,12 @@ void setup() {
 }
 void loop() {
   tInt = map(analogRead(A9), 0, 1023, 64, 1000);
+   if (millis() >= previousMillis + tInt*0.33) {
+     for (int i = 0; i < 8; i++) {
+      leds[i] = 0;
+    }
+     FastLED.show();
+   }
   if (millis() >= previousMillis + tInt) {
     previousMillis = millis();
     if (!digitalRead(pinLine[0])) {
@@ -75,7 +83,10 @@ void loop() {
     for (int i = 0; i < 8; i++) {
       pinMode(pinStep[i], OUTPUT);
       digitalWrite(pinStep[i], HIGH);
+      leds[i] = 0;
     }
+    leds[7-Step] = 255;
+     FastLED.show();
     Step = (Step + 1) % 8;
     digitalWrite(pinStep[Step], LOW);
   }
