@@ -11,3 +11,21 @@ Contact pierre-mary[at]le-florida.org
 
 ![Licence Creative Commons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
 Ce(tte) œuvre est mise à disposition selon les termes de la [Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International.](http://creativecommons.org/licenses/by-sa/4.0/)
+
+## Module I
+### Matériel nécessaire :
+* 9 boutons arcade
+* 2 potentiomètres 10k Lin
+* 1 joystick logitech
+* 2 cartes teensy 3.6
+* 1 carte sd
+* alimentation mean well rs-50-5
+* alimentation IRM-60-12ST
+* 2x tda 2050 mono amplifier
+* 2x 8ohm HP
+* ruban cuivre
+
+### Cablage
+Les boutons d'arcade sont cablés sur les entrées 0-8 de la teensy
+Les potentiomètres sur les entrées A8 et A9
+Le capteur capacitif est cablé sur l'entrée 30 après une résistance de 10kohm
