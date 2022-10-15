@@ -26,6 +26,6 @@ Ce(tte) œuvre est mise à disposition selon les termes de la [Licence Creative 
 * ruban cuivre
 
 ### Cablage
-Les boutons d'arcade sont cablés sur les entrées 0-8 de la teensy
-Les potentiomètres sur les entrées A8 et A9
-Le capteur capacitif est cablé sur l'entrée 30 après une résistance de 10kohm
+* Les boutons d'arcade sont cablés sur les entrées 0-8 de la teensy
+* Les potentiomètres sur les entrées A8 et A9
+* Le capteur capacitif est cablé sur l'entrée 30 après une résistance de 10kohm
